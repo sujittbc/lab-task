@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My first website</title>
+</head>
+<body>
+
+    <form action="action_page.php" method="POST">
+
+        <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Spongebob" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Squarepants" required>
+        </div>
+
+
+        <br>
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="SPants@gmail.com">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="phone">Phone No:</label>
+            <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="bdate">Birthdate:</label>
+            <input type="date" id="bdate" name="bdate">
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="City">City:</label>
+            <input type="text" id="City" name="City" min="0" max="99" >
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="title">Gender:</label>
+
+            <label for="Mr.">Male</label>
+            <input type="radio" id="Male" name="title" value="Male">
+
+            <label for="Mrs.">Female</label>
+            <input type="radio" id="Female" name="title" value="Female">
+
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="Country">Country:</label>
+            <select id="Country" name="Country">
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value="Japan">Japan</option>
+            </select>
+        </div>
+        
+        <br>
+
+        <div>
+            <label for="subscribe">subscribe:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" min="0" max="99" value="1">
+        </div>
+        
+        <br>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+
+</body>
+</html>
